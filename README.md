@@ -37,10 +37,10 @@ Check [here](https://digitux.vercel.app/)
 
  <img style="border:4px solid orange; border-radius: 100%; padding:1px;" src="https://github.com/andreyscott.png" width="100px;" alt=""/>
  <br />
- <sub><b>Felipe F.</b></sub>
+ <sub><b>Andreyscott.</b></sub>
 
 Made with Guts🐱‍👤 by Andrey. 👋🏽 Keep in touch!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andrew-irorere/)](https://www.linkedin.com/in/andrew-irorere/)
+[![Linkedin Badge](https://img.shields.io/badge/-Andrey-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andrew-irorere/)](https://www.linkedin.com/in/andrew-irorere/)
 
 </div>

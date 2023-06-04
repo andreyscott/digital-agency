@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -8,47 +10,40 @@ import heroBanner from '../../assets/hero__banner.png'
 
 export function Hero() {
   return (
-    <section className='w-full pt-16 px-4'>
-      <div className='w-full flex flex-col xl:flex-row items-center justify-between'>
-        <div className='relative max-w-[523px] w-full'>
-          <Image
-            src={arrow}
-            quality={100}
-            alt={''}
-            className='hidden 2xl:block w-auto h-[432px] absolute top-4 -left-28'
-          />
-          <p className='font-bold xl:text-[22px]'>Hello,</p>
-          <h1 className='text-[40px] xl:text-[48px] font-bold mt-4 leading-[60px] xl:leading-[80px]'>
-            We Help People To Bring Their Ideas Alive
-          </h1>
-          <p className='text-lg xl:text-[22px] text-white/80 font-light leading-relaxed mt-8'>
-            A talented team to help you in your journey on creating usefull and
-            easy to use product
-          </p>
+    <section className='w-full pt-16 px-4 bg-digitux-text'>
+      <div className="relative flex flex-col items-center justify-center min-h-screen bg-cover min-w-screen"
+    >
+    <div className="absolute inset-0 w-full h-full bg-black bg-opacity-75"></div>
 
-          <div className='mt-6 flex flex-col xl:flex-row items-center gap-8'>
-            <a
-              href=''
-              className='w-full text-sm font-semibold py-4 bg-digitux-primary rounded flex-1 flex items-center justify-center gap-2 hover:filter hover:contrast-200 transition-color ease-in-out duration-300'>
-              Let&apos;s Talk
-              <FiMessageSquare size={24} />
-            </a>
-            <Link
-              href={'/services'}
-              className='flex items-center gap-2 hover:border-b-2 ease-in-out duration-75'>
-              Check our Services
-              <FiArrowRight className='' />
-            </Link>
-          </div>
+    <div className="flex max-w-6xl mx-auto">
+        <div className="container relative flex flex-col w-1/2 px-3 pb-1 text-2xl font-hairline text-white">
+            <h2 className="relative z-20 text-xl font-extrabold leading-tight text-white">We provide<br/> The Digital Advantage
+   </h2>
+            <p className="relative z-20 block mt-4 text-xl">We've created the ultimate resource for turning your culture
+                into a
+                super-powered productivity machine by encouraging collaboration growth, and incentives!</p>
+            <div className="flex mt-4">
+                <a href="#_"
+                    className="flex items-center self-start justify-center px-5 py-3 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-lg shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-8">Get
+                    Started</a>
+                <a href="#_"
+                    className="flex items-center self-start justify-center px-5 py-3 mt-5 ml-5 text-base font-medium leading-tight text-indigo-500 transition duration-150 ease-in-out bg-gray-200 border-transparent rounded-lg shadow hover:bg-white focus:outline-none focus:border-gray-100 focus:shadow-outline-gray md:py-4 md:text-lg md:px-8">How
+                    It Works</a>
+            </div>
         </div>
+        <div className="relative w-1/2 overflow-hidden rounded-lg shadow-2xl cursor-pointer group">
+            <Image 
+            src={heroBanner}
+                            alt=""
+                className="object-cover w-full h-full group-hover:opacity-75 transition duration-150 ease-in-out"
+                width={3290}
+                height={2193}
+                 />
 
-        <Image
-          src={heroBanner}
-          alt={''}
-          quality={100}
-          className='hidden xl:block'
-        />
-      </div>
+                
+        </div>
+    </div>
+</div>
     </section>
   )
 }

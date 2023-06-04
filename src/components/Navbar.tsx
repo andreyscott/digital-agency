@@ -22,8 +22,9 @@ export function Navbar() {
   const { asPath } = useRouter()
 
   return (
-    <header className='fixed z-10 w-full mx-auto py-2 px-4 lg:px-16 bg-digitux-dark/70 backdrop-blur-[80px] flex items-center justify-between lg:justify-around'>
-      <h1 className='text-2xl font-semibold'>DigitUX</h1>
+    <header className='fixed z-10 w-full mx-auto py-2 px-4 lg:px-9 lg:py-3 bg-digitux-light/70 backdrop-blur-[80px] flex items-center justify-between lg:justify-between'>
+      <h1 className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b5fe2] to-[#000000]'>
+<Link href='/'>DigitUX</Link>        </h1>
 
       {isNavOpen ? (
         <HiOutlineX
@@ -35,7 +36,7 @@ export function Navbar() {
         <HiMenuAlt1
           onClick={handleOpenNavMenu}
           size={32}
-          className='lg:hidden z-10 cursor-pointer rotate-180'
+          className='lg:hidden z-10 cursor-pointer rotate-180 text-digitux-dark'
         />
       )}
 
@@ -53,8 +54,8 @@ export function Navbar() {
                 <span
                   className={
                     asPath === navUrl
-                      ? 'text-white font-bold border-b-2'
-                      : 'text-white/60 hover:text-white hover:border-b-2'
+                      ? 'text-white font-bold border-b-2 border-digitux-pblue'
+                      : 'text-white/60 hover:text-white hover:border-b-2 border-digitux-pblue'
                   }>
                   {label}
                 </span>
@@ -72,8 +73,8 @@ export function Navbar() {
                 <span
                   className={
                     asPath === navUrl
-                      ? 'text-white font-bold border-b-2'
-                      : 'text-white/60 hover:text-white hover:border-b-2'
+                      ? ' text-digitux-pblack font-bold border-b-2 border-digitux-pblue '
+                      : 'text-digitux-pblack/60 hover:text-digitux-pblack hover:border-b-2 border-digitux-pblue'
                   }>
                   {label}
                 </span>
