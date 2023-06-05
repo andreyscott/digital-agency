@@ -12,7 +12,7 @@ module.exports = {
           text: '#0E0E2C',
           grey: '#A0A4AB',
           greySoft: '#B1B1B1',
-          dark: '#262A31',
+          dark: '#040404',
           light: '#F7F7F7',
           pblue: '#3b5fe2',
           pblack: '#1b1e27',
