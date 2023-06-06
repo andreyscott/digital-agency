@@ -17,42 +17,42 @@ export const services = [
         alt: 'Social Media Management',
         dataText: 'Management',
         title: 'Management',
-        text: 'Potențialul rețelelor sociale este imens. Afacerile pot folosi Social Media pentru a-și atinge cu succes obiectivele, de la creșterea gradului de cunoaștere a afacerii până la creșterea numărului de vizite în site.'
+        text: 'The potential of social media is immense. Businesses can use Social Media to successfully achieve their goals, from increasing business awareness to increasing website traffic.',
     },
     {
         src: design,
         alt: 'Design',
         dataText: 'Design',
         title: 'Design',
-        text: 'Design-ul grafic este un element cheie pentru stabilirea unei imagini puternice de brand care te va ajuta să te diferențiezi față de competiție.'
+        text: 'Graphic design is a key element in establishing a strong brand image that will help you differentiate yourself from the competition.'
     },
     {
         src: copywriting,
         alt: 'Copywriting',
         dataText: 'Copywriting',
         title: 'Copywriting',
-        text: 'Chiar dacă produsele sau serviciile tale au o calitate ridicată, este foarte important modul în care acestea sunt prezentate în fața clienților.'
+        text: 'Even if your products or services are of high quality, how they are presented to customers is very important.'
     },
     {
         src: webDev,
         alt: 'Website Development',
         dataText: 'Websites',
         title: 'Website Build',
-        text: 'Trăind în lumea digitală, un website este esențial pentru orice afacere. Având o prezență online puternică, în special un website, poate fi un avantaj pentru a genera mai multe venituri.'
+        text: 'Living in the digital world, a website is essential for any business. Having a strong online presence, especially a website, can be an advantage to generate more income.'
     },
     {
         src: SEO,
         alt: 'SEO',
         dataText: 'SEO',
         title: 'SEO',
-        text: 'Nu contează cât de bun este site-ul tău dacă oamenii potriviți nu îl pot găsi. Serviciile noastre de SEO te pot ajuta să fii văzut și să domini primele locuri pe internet.'
+        text: "It doesn't matter how good your website is if the right people can't find it. Our SEO services can help you get seen and dominate the top spots on the internet."
     },
     {
         src: ads,
         alt: 'Facebook & Instagram Ads',
         dataText: 'Ads',
         title: 'Ads',
-        text: 'Procesul de promovare pe Facebook și Instagram va oferi afacerii tale boost-ul de care are nevoie pentru a atrage clienți noi și a mări traficul.'
+        text: 'Facebook and Online ads are a great way to increase your brand awareness and generate more leads and sales.Which will give your business the boost it needs to attract new customers and increase traffic.'
     }
 ]
 
@@ -60,7 +60,7 @@ const Services = () => {
     return (
         
         <div className={styles.services} id='servicii'>
-            <h1 className={styles.underline}>Te ajutăm cu...</h1>
+            <h1 className='mx-4 text-2xl md:text-3xl font-mono hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#3b5fe2] to-[#fff] transition-all duration-500 ease-in '>Our Services...</h1>
             <div className={styles.servcontainer}>
                 {services.map((service, id) => {
                     return (
