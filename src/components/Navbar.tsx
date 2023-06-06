@@ -36,7 +36,7 @@ export function Navbar() {
         <HiMenuAlt1
           onClick={handleOpenNavMenu}
           size={32}
-          className='lg:hidden z-10 cursor-pointer rotate-180 text-digitux-dark'
+          className='lg:hidden z-10 cursor-pointer rotate-180 text-digitux-light'
         />
       )}
 

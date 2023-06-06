@@ -6,6 +6,7 @@ import { ServicesWeOffer } from '../components/Home/ServicesWeOffer'
 import { TeamSection } from '../components/Home/TeamSection'
 import { OurProjects } from '../components/Home/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
+import Services from '../components/services/Services'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       className='max-w-[1440px] w-full mx-auto'>
       <Hero />
       <Clients />
+      <Services />
       <ServicesWeOffer />
       <TeamSection />
       <OurProjects />
