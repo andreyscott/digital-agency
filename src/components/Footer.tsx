@@ -1,22 +1,18 @@
 import Link from 'next/link'
 import {
-  FiDribbble,
   FiFacebook,
   FiInstagram,
   FiSend,
-  FiTwitter
+  FiTwitter,
+  FiGithub
 } from 'react-icons/fi'
 
 export function Footer() {
   const socialLinks = [
-    { id: 1, icon: <FiFacebook size={28} />, linkLabel: 'fb.com/DigitalUX' },
-    { id: 2, icon: <FiInstagram size={28} />, linkLabel: '@DigitalUX' },
-    { id: 3, icon: <FiTwitter size={28} />, linkLabel: '@DigitalUX' },
-    {
-      id: 4,
-      icon: <FiDribbble size={28} />,
-      linkLabel: 'Dribbble.com/DigitalUx'
-    }
+    { id: 1, icon: <FiFacebook size={28} />, linkLabel: 'fb.com/' },
+    { id: 2, icon: <FiInstagram size={28} />, linkLabel: '@itsandrey' },
+    { id: 3, icon: <FiTwitter size={28} />, linkLabel: '@Andreyscott' },
+    { id: 4, icon: <FiGithub size={28} />, linkLabel: '@Andreyscott' },
   ]
   const navLinks = [
     { id: 1, linkUrl: '/about', linkLabel: 'About Us' },
