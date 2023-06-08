@@ -1,0 +1,47 @@
+ .item .thumb {
+    position: relative;
+  }
+  
+    .item .thumb:hover .hovereffect {
+    bottom: 30px;
+  }
+  
+    .item .thumb:hover img {
+    opacity: 0.7;
+  }
+  
+    .item .hovereffect {
+    position: absolute;
+    background-image: url(../assets/waves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+    bottom: -240px;
+    right: 30px;
+    width: 239px;
+    height: 210px;
+  }
+  
+    .item .hovereffect .innerContent {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    text-align: right;
+  }
+  
+    .item .hovereffect .innerContent h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+    .item .hovereffect .innerContent span {
+    font-size: 15px;
+    color: #fff;
+  }
+  
+    .item .thumb img {
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
