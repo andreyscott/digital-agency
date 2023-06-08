@@ -1,4 +1,4 @@
-# DigitUX
+#AfroDigit
 
 A Digital Marketing and Web Developer Agency website. It includes a hero section, services, team members and testimonials. It also includes a page 'About Us', 'Services', Projects and Contact pages. It was designed by **Hmimi Chioukh**, you can check the figma file [here](<https://www.figma.com/file/oCVR7T1gYq6qjxcDRAFnUD/Web-agency-%2F-Portfolio-(Community)?node-id=142%3A2478&t=XTC79ajs5u5WNyUz-0>)
 

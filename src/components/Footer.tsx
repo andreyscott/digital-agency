@@ -28,7 +28,7 @@ export function Footer() {
         <div className='max-w-[250px]'>
           <h1 className='text-[32px] font-semibold'>DigitUX</h1>
           <p className='mt-5 text-sm'>
-            DigitUx is a Digital agency that create User centred Product that
+           AfroDigit is a Digital agency that create User centred Product that
             help her client to evolve
           </p>
         </div>

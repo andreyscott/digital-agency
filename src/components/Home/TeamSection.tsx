@@ -12,7 +12,7 @@ export function TeamSection() {
     <section className='w-full bg-black mt-32 px-4 xl:flex items-center lg:justify-between gap-7 xl:gap-48'>
       <div className='max-w-[540px] xl:mb-20 md:flex-1'>
         <h2 className='xl:text-[22px] font-bold leading-relaxed'>
-          The Team behind DigitUX
+          The Team behindAfroDigit
         </h2>
         <h1 className='mt-4 text-[22px] xl:text-[34px] font-bold'>
           A creative team who are excited to help you with your idea
