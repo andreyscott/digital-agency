@@ -3,13 +3,29 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 
 import { HiMenuAlt1, HiOutlineX } from 'react-icons/hi'
+import ScrollStatus from './scroll/'
 
 export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
+  const [colorChange, setColorchange] = useState(false);
+
+  const changeNavbarColor = () => {
+      if (window.scrollY >= 0) {
+          setColorchange(true);
+      } else {
+          setColorchange(false);
+      }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
+
+
   const handleOpenNavMenu = () => {
     setIsNavOpen(prev => !prev)
   }
+
+
 
   const menuOptions = [
     { id: 1, label: 'Home', navUrl: '/' },
@@ -22,9 +38,11 @@ export function Navbar() {
   const { asPath } = useRouter()
 
   return (
-    <header className='fixed z-10 w-full mx-auto py-2 px-4 lg:px-9 lg:py-3 bg-digitux-dark/70 backdrop-blur-[80px] flex items-center justify-between lg:justify-between'>
+    <>
+    <header className='fixed z-10 w-full flex-col mx-auto py-2 px-4 lg:px-9 lg:py-3 bg-digitux-dark/70 backdrop-blur-[80px] flex'>
+     <div className='flex w-full items-center justify-between lg:justify-between'>
       <h1 className='text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#3b5fe2] to-[#fff]'>
-<Link href='/'>DigitUX</Link>        </h1>
+<Link href='/'>AfroDigit</Link>        </h1>
 
       {isNavOpen ? (
         <HiOutlineX
@@ -83,6 +101,9 @@ export function Navbar() {
           ))}
         </ul>
       </nav>
+      </div>
+      <ScrollStatus />
     </header>
+</>
   )
 }

@@ -14,9 +14,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta
           name='keywords'
-          content='ui, ux, design, webdev, webdevelopment, nextjs'
+          content='seo, react, ux-design,mobile, webdev, webdevelopment, nextjs'
         />
-        <title>DigitUX</title>
+        <title>AfroDigit</title>
       </Head>
       <Navbar />
       <Component {...pageProps} />

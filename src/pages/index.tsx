@@ -7,6 +7,8 @@ import { TeamSection } from '../components/Home/TeamSection'
 import { OurProjects } from '../components/Home/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
 import Services from '../components/services/Services'
+import Faq from '../components/Faq'
+import Pricing from '../components/pricing'
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
       {/* <ServicesWeOffer /> */}
       <TeamSection />
       <OurProjects />
+      <Pricing />
+    <Faq />
+    
       <Tesimonials />
     </motion.main>
   )

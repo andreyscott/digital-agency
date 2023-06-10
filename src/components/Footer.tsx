@@ -26,9 +26,9 @@ export function Footer() {
     <footer className='max-w-[1440px] w-full mx-auto mt-40 mb-5 px-4 flex flex-col sm:flex-row items-center sm:items-start justify-between'>
       <div className='flex lg:gap-16 xl:gap-32'>
         <div className='max-w-[250px]'>
-          <h1 className='text-[32px] font-semibold'>DigitUX</h1>
+          <h1 className='text-[32px] font-semibold'>AfroDigit</h1>
           <p className='mt-5 text-sm'>
-           AfroDigit is a Digital agency that create User centred Product that
+            AfroDigit is a Digital agency that create User centred Product that
             help her client to evolve
           </p>
         </div>
