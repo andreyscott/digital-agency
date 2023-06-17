@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
@@ -17,15 +18,15 @@ export function Navbar() {
           setColorchange(false);
       }
   };
-  window.addEventListener("scroll", changeNavbarColor);
-
+  // window.addEventListener("scroll", changeNavbarColor);
+  useEffect(() => {
+    window.addEventListener("scroll", changeNavbarColor);
+  }, []);
 
 
   const handleOpenNavMenu = () => {
     setIsNavOpen(prev => !prev)
   }
-
-
 
   const menuOptions = [
     { id: 1, label: 'Home', navUrl: '/' },
