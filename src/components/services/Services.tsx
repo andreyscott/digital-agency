@@ -10,28 +10,15 @@ import ads from '../../assets/ads.png'
 import design from '../../assets/design.png'
 import webDev from '../../assets/web-dev.png'
 import copywriting from '../../assets/copywriting.png'
+// import digit from '../../assets/digit.svg'
 
 export const services = [
-    {
-        src: SMManagement,
-        alt: 'Social Media Management',
-        dataText: 'Management',
-        title: 'Management',
-        text: 'The potential of social media is immense. Businesses can use Social Media to successfully achieve their goals, from increasing business awareness to increasing website traffic.',
-    },
     {
         src: design,
         alt: 'Design',
         dataText: 'Design',
         title: 'Design',
         text: 'Graphic design is a key element in establishing a strong brand image that will help you differentiate yourself from the competition.'
-    },
-    {
-        src: copywriting,
-        alt: 'Copywriting',
-        dataText: 'Copywriting',
-        title: 'Copywriting',
-        text: 'Even if your products or services are of high quality, how they are presented to customers is very important.'
     },
     {
         src: webDev,
@@ -41,11 +28,25 @@ export const services = [
         text: 'Living in the digital world, a website is essential for any business. Having a strong online presence, especially a website, can be an advantage to generate more income.'
     },
     {
+        src: copywriting,
+        alt: 'Copywriting',
+        dataText: 'Copywriting',
+        title: 'Copywriting',
+        text: 'Even if your products or services are of high quality, how they are presented to customers is very important.'
+    },
+    {
         src: SEO,
         alt: 'SEO',
         dataText: 'SEO',
         title: 'SEO',
         text: "It doesn't matter how good your website is if the right people can't find it. Our SEO services can help you get seen and dominate the top spots on the internet."
+    },
+    {
+        src: SMManagement,
+        alt: 'Social Media Management',
+        dataText: 'Management',
+        title: 'Management',
+        text: 'The potential of social media is immense. Businesses can use Social Media to successfully achieve their goals, from increasing business awareness to increasing website traffic.',
     },
     {
         src: ads,
@@ -60,7 +61,8 @@ const Services = () => {
     return (
         
         <div className={styles.services} id='servicii'>
-            <h1 className='mx-4 text-2xl md:text-3xl font-mono hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#3b5fe2] to-[#fff] transition-all duration-500 ease-in '>Our Services...</h1>
+            <h1 className='mx-4 text-2xl md:text-3xl font-mono hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#3b5fe2] to-[#fff] transition-all duration-500 ease-in '>
+                Our top class Services</h1>
             <div className={styles.servcontainer}>
                 {services.map((service, id) => {
                     return (

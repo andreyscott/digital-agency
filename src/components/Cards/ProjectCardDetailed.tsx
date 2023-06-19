@@ -47,8 +47,8 @@ export const ProjectCardDetailed = ({
             src={imgUrl}
             width={543}
             height={464}
-            alt={''}
-            className='w-full h-auto object-cover'
+            alt={'some text'}
+            className='object-cover'
           />
         </div>
         <Link

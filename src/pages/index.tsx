@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 import { Hero } from '../components/Home/Hero'
 import { Clients } from '../components/Home/Clients'
-import { ServicesWeOffer } from '../components/Home/ServicesWeOffer'
+// import { ServicesWeOffer } from '../components/Home/ServicesWeOffer'
 import { TeamSection } from '../components/Home/TeamSection'
 import { OurProjects } from '../components/Home/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
