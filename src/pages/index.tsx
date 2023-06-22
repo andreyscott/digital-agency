@@ -1,6 +1,3 @@
-import { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { motion } from 'framer-motion'
 
 import { Hero } from '../components/Home/Hero'
@@ -14,12 +11,6 @@ import Faq from '../components/Faq'
 import Pricing from '../components/pricing'
 
 export default function Home() {
-  useEffect(() => {
-		AOS.init({
-			delay: 400,
-			duration: 800,
-		});
-	});
   return (
     <motion.main
       initial={{ opacity: 0 }}

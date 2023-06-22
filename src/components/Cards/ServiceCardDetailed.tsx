@@ -22,8 +22,12 @@ export function ServiceCardDetailed({
             {description}
           </p>
         </div>
-        <div className='relative h-[350px] w-[350px] mt-11 self-center'>
-          <Image src={imgUrl} alt={''} className='w-full h-full' />
+        <div 
+        data-aos='zoom-in-left'
+        data-aos-duration='1200'
+        data-aos-easing='ease-in-out'
+        className='relative h-[350px] w-[450px] mt-11 self-center'>
+          <Image src={imgUrl} alt={''} className='w-full h-full rounded-lg' />
           <Image
             src={tikTik}
             alt={''}

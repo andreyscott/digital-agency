@@ -10,6 +10,7 @@ interface IProjectCardDetailedProps {
   title: string
   description: string
   imgUrl: StaticImageData
+  link?: string
 }
 
 export const ProjectCardDetailed = ({

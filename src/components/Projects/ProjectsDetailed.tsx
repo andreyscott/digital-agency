@@ -1,6 +1,6 @@
 import { ProjectCardDetailed } from '../Cards/ProjectCardDetailed'
 
-import proj01 from '../../assets/project-01.png'
+import proj01 from '../../assets/delivery-w.webp'
 import proj02 from '../../assets/project-02.png'
 import proj03 from '../../assets/project-03.png'
 import proj04 from '../../assets/project-04.png'
@@ -14,7 +14,7 @@ import proj09 from '../../assets/japanese.png'
 export function ProjectsDetailed() {
   const cards = [
     {
-      id: 0,
+      id: 1,
       type: "WEB/Mobile",
       title: "Athens Central Hotel",
       description:
@@ -23,7 +23,7 @@ export function ProjectsDetailed() {
       link: "https://www.athenscentralhotel.com",
     },
     {
-      id: 1,
+      id: 2,
       type: "WEB/Mobile",
       title: "Sam Standard Furniture",
       description:
@@ -32,7 +32,16 @@ export function ProjectsDetailed() {
       link: "https://sam-standard.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
+      type: 'UI/UX Design',
+      title: 'Hydrate, a water delivery platform',
+      description:
+        'Hydrate is a platform that offers water delivery at a quality and competitive price',
+      imgUrl: proj01,
+      link: 'https://www.behance.net/gallery/173041745/Water-Delivery-Website-Landing-Page',
+    },
+    {
+      id: 4,
       type: "WEB",
       title: "GloRhe Health",
       description:
@@ -42,7 +51,7 @@ export function ProjectsDetailed() {
       link: "https://glorhea-womenhelp.netlify.app/",
       
     }, {
-      id: 3,
+      id: 5,
       type: "WEB",
       title: "TKO Personal Trainer",
       description:
@@ -51,15 +60,16 @@ export function ProjectsDetailed() {
     link: "https://japanese-web.vercel.app/",
 
     },
-    
     {
       id: 6,
       type: 'UI/UX Design',
-      title: 'Delex Relay, a delivery platform',
+      title: 'ADOC, Your Online Medical Appoinments',
       description:
-        'Delex is a delivery platform for businessmen and individuals who want to send packages from one point to another and a tracking system as well',
-      imgUrl: proj01,
+        'ADOC Is an online Medical appoinment that allow user to take an appoinment with a doctor, it also work as a medical files holder',
+      imgUrl: proj05
     },
+
+    
     {
       id: 7,
       type: 'Web / app Development',
@@ -68,30 +78,16 @@ export function ProjectsDetailed() {
         'Cooke me is a platform that offers fresh meals at a cheap price and allows individual to sell their meals',
       imgUrl: proj02
     },
+   
     {
       id: 8,
-      type: 'UI/UX Design',
-      title: 'Booking, Travel anywhere',
-      description:
-        'Booking is an platform that offer hotels at a quality and competitive price',
-      imgUrl: proj03
-    },
-    {
-      id: 4,
       type: 'UI/UX Design',
       title: 'Homely, Nice and good furniture for your Home',
       description:
         'Homely is an platform that offer couchs, futons, desks and most variable furniture for your home',
-      imgUrl: proj04
+      imgUrl: proj04,
+      link: 'https://www.figma.com/file/9F1A4Qut5bjIZnieQCsoKZ/Interior-Design-Website?type=design&node-id=1%3A458&mode=design&t=J0lYhpJa6LOXKjUB-1'
     },
-    {
-      id: 5,
-      type: 'UI/UX Design',
-      title: 'ADOC, Your Online Medical Appoinments',
-      description:
-        'ADOC Is an online Medical appoinment that allow user to take an appoinment with a doctor, it also work as a medical files holder',
-      imgUrl: proj05
-    }
   ]
   return (
     <section className='w-full mt-32 px-4'>
