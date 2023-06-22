@@ -66,7 +66,12 @@ const Services = () => {
             <div className={styles.servcontainer}>
                 {services.map((service, id) => {
                     return (
-                        <div key={id} className={styles.card}>
+                        <div
+                        data-aos='zoom-in-up'
+                        data-aos-duration='1000'
+                        data-aos-easing='ease-in-out'
+                        
+                         key={id} className={styles.card}>
                             <div className={styles.img} data-text={service.dataText}>
                                 <Image
                                 width={120}

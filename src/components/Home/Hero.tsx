@@ -42,7 +42,8 @@ We analyze your business and choose the best strategies to promote it and attrac
  </p>
             <div className="flex mt-4">
                 <a href="mailto:andgeyscott301@gmail.com"
-                    className="flex items-center self-start justify-center px-5 py-3 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-transparent border-indigo-600 border rounded-lg shadow hover:bg-indigo-500 focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-8">Get
+                    className="btn2 hover:shadow-md shadow-blue-400 shadow-sm hover:shadow-slate-200 duration-700">
+                              Get
                     Started</a>
             </div>
         </div>

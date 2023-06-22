@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
       },
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
+
       colors: {
         digitux: {
           primary: '#3B71FE',

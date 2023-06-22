@@ -10,7 +10,12 @@ import data from '../../data/dataMockup.json'
 export function TeamSection() {
   return (
     <section className='w-full bg-black mt-32 px-4 xl:flex items-center lg:justify-between gap-7 xl:gap-48'>
-      <div className='max-w-[540px] xl:mb-20 md:flex-1'>
+      <div 
+      data-aos='zoom-in-right'
+      data-aos-duration='1000'
+      data-aos-easing='ease-in-out'
+      
+      className='max-w-[540px] xl:mb-20 md:flex-1'>
         <h2 className='xl:text-[22px] font-bold leading-relaxed'>
           The Team behind AfroDigit
         </h2>
@@ -29,7 +34,11 @@ export function TeamSection() {
         {data.teamMembers.map(props => (
           <SwiperSlide
 
-           key={props.id} className='flex justify-center gap-9'>
+           key={props.id}
+           data-aos='fade-up'
+            data-aos-duration='1500'
+            data-aos-easing='ease-in-out'
+            className='flex justify-center gap-9'>
             <TeamMemberCard {...props} />
           </SwiperSlide>
         ))}

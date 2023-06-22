@@ -8,3 +8,15 @@ body {
   @apply bg-digitux-dark text-white font-poppins;
 
 }
+
+@layer components {
+  .btn{
+    @apply  flex items-center self-start justify-center px-5 py-3 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-transparent border-indigo-600 border rounded-lg shadow hover:bg-indigo-500 focus:border-indigo-700 focus:shadow-white/60 md:py-4 md:text-lg md:px-8;
+
+  }
+
+  .btn2 {
+    @apply m-2 text-base font-medium leading-tight px-5 py-3 md:py-4 md:text-lg md:px-8 text-white transition-all duration-500 bg-gradient-to-br to-white via-black rounded-lg from-digitux-pblue bg-size-200 hover:bg-right-bottom;
+
+  }
+}

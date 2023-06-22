@@ -12,7 +12,11 @@ export function OurProjects() {
       <h1 className='mt-4 text-[22px] xl:text-[34px] font-bold leading-9 xl:leading-normal'>
         The work we did that made ours clients happy and satisfied
       </h1>
-      <div className='mt-20 flex flex-wrap items-center justify-center gap-10 xl:gap-0 xl:grid grid-cols-3 last:cursor-pointer'>
+      <div 
+      data-aos='fade-up'
+      data-aos-duration='900'
+      data-aos-easing='ease-in-out'
+      className='mt-20 flex flex-wrap items-center justify-center gap-10 xl:gap-0 xl:grid grid-cols-3 last:cursor-pointer'>
         {data.projects.map(props => (
           <ProjectCard key={props.id} {...props} />
         ))}
