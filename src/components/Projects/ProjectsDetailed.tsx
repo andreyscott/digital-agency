@@ -2,12 +2,11 @@ import { ProjectCardDetailed } from '../Cards/ProjectCardDetailed'
 
 import proj01 from '../../assets/delivery-w.webp'
 import proj02 from '../../assets/project-02.png'
-import proj03 from '../../assets/project-03.png'
 import proj04 from '../../assets/project-04.png'
 import proj05 from '../../assets/project-05.png'
 
 import proj06 from '../../assets/athens.png'
-import proj07 from '../../assets/sam-standard.png'
+import proj07 from '../../assets/sam.png'
 import proj08 from '../../assets/glor.png'
 import proj09 from '../../assets/japanese.png'
 
