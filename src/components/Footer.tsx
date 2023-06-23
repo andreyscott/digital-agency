@@ -27,7 +27,7 @@ export function Footer() {
         <div className='max-w-xl md:max-w-[400px] flex flex-col justify-center items-center'>
           <h1 className='text-[32px] font-semibold'>AfroDigit</h1>
           <ul className='mt-4 flex gap-4'>
-            {socialLinks.map(({ id, icon, linkLabel }) => (
+            {socialLinks.map(({ id, icon,}) => (
               <li key={id} className='flex items-center gap-2'>
                 {icon}
               </li>
