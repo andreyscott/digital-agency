@@ -9,6 +9,7 @@ import { Tesimonials } from '../components/Testimonials'
 import Services from '../components/services/Services'
 import Faq from '../components/Faq'
 import Pricing from '../components/pricing'
+import Pricing1 from '../components/pricing/test'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       {/* <ServicesWeOffer /> */}
       <TeamSection />
       <OurProjects />
+      <Pricing1 plans={[]} />
       <Pricing />
     <Faq />
     

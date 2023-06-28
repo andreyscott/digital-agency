@@ -20,7 +20,9 @@ module.exports = {
           light: '#F7F7F7',
           pblue: '#3b5fe2',
           pblack: '#1b1e27',
-        }
+        },
+        dark: '#040404',
+        pblue: '#3b5fe2',
       }
     }
   },
