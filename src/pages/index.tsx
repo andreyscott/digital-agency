@@ -8,7 +8,7 @@ import { OurProjects } from '../components/Home/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
 import Services from '../components/services/Services'
 import Faq from '../components/Faq'
-import Pricing from '../components/pricing'
+// import Pricing from '../components/pricing'
 import Pricing1 from '../components/pricing/test'
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
       <TeamSection />
       <OurProjects />
       <Pricing1 plans={[]} />
-      <Pricing />
+      {/* <Pricing /> */}
     <Faq />
     
       <Tesimonials />
