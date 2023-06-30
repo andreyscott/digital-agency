@@ -9,11 +9,11 @@ import {
 
 export function Footer() {
   const socialLinks = [
-    { id: 1, icon: <FiFacebook size={28} />, linkLabel: '' },
-    { id: 2, icon: <FiInstagram size={28} />, linkLabel: '@itsandrey' },
-    { id: 3, icon: <FiTwitter size={28} />, linkLabel: '@Andreyscott247' },
-    { id: 4, icon: <FiGithub size={28} />, linkLabel: '@Andreyscott' },
-  ]
+    // { id: 1, icon: <FiFacebook size={28} />, linkLabel: '', links: 'https://andreydev.com' },
+    { id: 2, icon: <FiInstagram size={28} />, linkLabel: '@itsandrey', links: 'https://andreydev.com'  },
+    { id: 3, icon: <FiTwitter size={28} />, linkLabel: '@Andreyscott247', links: 'https://twitter.com/andreyscott247'  },
+    { id: 4, icon: <FiGithub size={28} />, linkLabel: '@Andreyscott', links: 'https://github.com/andreyscott' },
+  ]  
   const navLinks = [
     { id: 1, linkUrl: '/about', linkLabel: 'About Us' },
     { id: 2, linkUrl: '', linkLabel: 'Our Service' },
@@ -27,9 +27,13 @@ export function Footer() {
         <div className='max-w-xl md:max-w-[400px] flex flex-col justify-center items-center'>
           <h1 className='text-[32px] font-semibold'>AfroDigit</h1>
           <ul className='mt-4 flex gap-4'>
-            {socialLinks.map(({ id, icon,}) => (
+            {socialLinks.map(({ id, icon, links}) => (
               <li key={id} className='flex items-center gap-2'>
+                <Link  
+                href={links}
+                >
                 {icon}
+                </Link>
               </li>
             ))}
           </ul>
